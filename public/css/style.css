@@ -314,10 +314,6 @@ iframe {
     max-width: none;
   }
 
-  .image-title > p {
-    display: none;
-  }
-
   .project-slot, .project-slot > a > img {
     width: 100%;
     height: auto;
