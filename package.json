@@ -1,0 +1,35 @@
+{
+  "name": "mihako",
+  "version": "1.0.0",
+  "description": "000000001 OS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "json:server": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5183nischal/Tappy"
+  },
+  "author": "C---0-D--R-I-N",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-subdomain": "^1.0.5",
+    "gm": "^1.23.1",
+    "imageMagick": "^0.1.2",
+    "json-server": "^0.14.2",
+    "markdown-it": "^8.4.2",
+    "sharp": "^0.22.1",
+    "showdown": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}

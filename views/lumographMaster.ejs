@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- head ejs -->
+  <% include lumograph/head.ejs %>
+</head>
+
+<body>
+<div id="master-title" data-aos="fade-up">
+  <h1>Master Archive</h1>
+  <h1><%= masterList.length %> exposures taken</h1>
+</div>
+<div id="master-content" data-aos="fade-up">
+  <div class="master-row">
+        <div class="master-data"><p><i>Index</i></p></div>
+        <div class="master-data"><p><i>Name</i></p></div>
+        <div class="master-data"><p><i>Film Type</i></p></div>
+        <div class="master-data"><p><i>ISO</i></p></div>
+        <div class="master-data"><p><i>Roll Nbr.</i></p></div>
+        <div class="master-data"><p><i>Size</i></p></div>
+        <div class="master-data"><p><i>Location</i></p></div>
+        <div class="master-data"><p><i>Development</i></p></div>
+        <div class="data-spacer"></div>
+  </div>
+  <% masterList.forEach(function(exposure) { %>
+  <div class="master-row">
+        <div class="master-data"><p><strong>Exp.</strong>(<%= exposure.id %>)</p></div>
+        <div class="master-data"><p><%= exposure.name %></p></div>
+        <div class="master-data"><p><%= exposure.film %></p></div>
+        <div class="master-data"><p><%= exposure.iso %> ISO</p></div>
+        <div class="master-data"><p>Nbr.<%= exposure.rollNumber %></p></div>
+        <div class="master-data"><p>35mm</p></div>
+        <div class="master-data"><p>---</p></div>
+        <div class="master-data"><p>---</p></div>
+        <div class="data-spacer"></div>
+  </div>
+  <% }); %>
+  <div class="bottom-whitespace"></div>
+</div>
+
+<!-- AOS FADE SCRIPTS -->
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<!-- <script>AOS.init();</script> -->
+</body>
+</html>

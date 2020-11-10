@@ -1,0 +1,39 @@
+{
+  "personalInfo": [{
+    "name": "Tappy",
+    "title": ["A Tap with a Vision"] ,
+    "bio": ""
+  }],
+
+  "mihako": [
+    { "id": 1, "visible": true, "project": "Obsidian", "directory": "obsidian", "date": "2019.03.28", "thumbnail": "1.jpg", "markdown" : "/md/projects/obsidian.md", "tags":["Code","Interactive", "Data"], "description" : "User-based interactive installation that builds a virtual community based on the collected depth data of previous participants."},
+    { "id": 2, "visible": false, "project": "Memories of a Shattered Melody", "directory": "moasm", "date": "2019.01.10", "thumbnail": "1.PNG", "markdown" : "/md/projects/moasm.md", "tags":["Code", "Shaders", "Unity", "3D"], "description" : "The basic premise of MOASM (Memories of a Shattered Melody) is to create a freeform melody in a 3D space that wont be permanent. The intent is to let the users play around with different and create a melody or a sequence of sounds that the user will not be able to replay/recreate after it has played. MOASM is inspired by temporary nature of memories, letting the user immersive himself in the moment knowing full well that whatever he creates will ultimately disappear."},
+    { "id": 3, "visible": true, "project": "Chroma", "directory": "chroma", "date": "2018.12.08", "thumbnail": "5.jpg", "markdown" : "/md/projects/chroma.md", "tags":["Code","Tangible","Arduino"], "description" : "Chroma is a wearable technology aimed towards performance artists."},
+    { "id": 4, "visible": true, "project": "Kiriko", "directory": "kiriko", "date": "2018.12.07", "thumbnail": "12.jpg", "markdown" : "/md/projects/kiriko.md", "tags":["Code", "Unity", "Shaders", "VR"], "description" : "Kiriko is a user-based simulation and installation illustrating our relationship for the environment."},
+    { "id": 5, "visible": true, "project": "Winds Of The World", "directory": "wotw", "date": "2018.11.25", "thumbnail": "0.png", "markdown" : "/md/projects/wotw.md", "tags":["Code", "Javascript", "3D", "Data Visualization"], "description" : "Winds of the world is a data visualization app built to give the user weather forecast data on some of the cities around the world."},
+    { "id": 6, "visible": false, "project": "LoneBox", "directory": "lonebox", "date": "2018.10.28", "thumbnail": "9.jpg", "markdown" : "/md/projects/lonebox.md", "tags":["Arduino", "Code", "Tangible"], "description" : "LoneBox is a lonely, isolated robot that yearns for attention. Its circuitry is cased by a hollow wooden cube with a frosted acrylic top. When alone, it calls out sadly and glows a cool blue. However, when LoneBox detects movement within its proximity, it slowly begins to glow a warm pink, chirping and singing in delight."},
+    { "id": 7, "visible": false, "project": "Museum Mayhem VR", "directory": "museum", "date": "2018.05.20", "thumbnail": "1.jpg", "markdown" : "/md/projects/museum.md", "tags":["Code", "3D"], "description" : "A VR game where you smash valuable artifacts with a broom stick collectively made with 26 other students. Made under the supervision of Jonathan Lessard. Original Idea by Hazel Thexton. My personal contributions for this project include the glass smashing mechanic and window panels."},
+    { "id": 8, "visible": false, "project": "You are Two", "directory": "youaretwo", "date": "2018.03.15", "thumbnail": "3.png", "markdown" : "/md/projects/youaretwo.md", "tags":["Code","3D"], "description" : "A coop game created with other students for the Ubisoft game lab competition. My main production partners included Victor Ivanov and Charles Doucet"},
+    { "id": 9, "visible": false, "project": "The Grove", "directory": "grove", "date": "2018.08.03", "thumbnail": "2.jpg", "markdown" : "/md/projects/grove.md", "tags":["VR", "3D modeling", "Architecture"], "description" : "Set of architecture renders for VR (oculus GO) I did as part of a summer internship for UTILE"},
+    { "id": 10, "visible": false, "project": "Bowels Of The Mind", "directory": "botm", "date": "2018.05.31", "thumbnail": "2.gif", "markdown" : "/md/projects/botm.md", "tags":["Code", "Unity", "3D modeling", "Sound Design"], "description" : "In the bowels of the mind is an atmospheric horror game experienced through the mechanics of a simple walking simulator. The player takes on the role of an unknown protagonist who is trapped in his mind."},
+    { "id": 11, "visible": false, "project": "Tokiji", "directory": "tokiji", "date": "2018.05.29", "thumbnail": "0.gif", "markdown" : "/md/projects/tokiji.md", "tags":["Code", "Unity", "C#", "3D modeling"], "description" : "Mobile mini game about smashing precious pots."},
+    { "id": 12, "visible": true, "project": "Kinect Mood Analyzer", "directory": "kinectmood", "date": "2018.04.30", "thumbnail": "0.jpg", "markdown" : "/md/projects/kinectmood.md", "tags":["Code", "Processing", "Kinect"], "description" : "A kinect based program that analyzes a user's mood"},
+    { "id": 13, "visible": false, "project": "Cortex", "directory": "cortex", "date": "2018.04.24", "thumbnail": "3.jpg", "markdown" : "/md/projects/cortex.md", "tags":["3D", "Concept Design", "Compositing"], "description" : "A set of hardsurface environments"},
+    { "id": 14, "visible": false, "project": "Core", "directory": "core", "date": "2018.04.24", "thumbnail": "0.gif", "markdown" : "/md/projects/core.md", "tags":["3D", "Concept Design"], "description" : "3D concept art of a core inspired by the movie '2001, a space odyssey'."},
+    { "id": 15, "visible": false, "project": "Alea Triplicata", "directory": "alea", "date": "2018.05.01", "thumbnail": "1.jpg", "markdown" : "/md/projects/alea.md", "tags":["3D", "Concept Design", "Compositing"], "description" : "Concept design for a mechanical cell, made in Cinema4D with Octane."},
+    { "id": 16, "visible": false, "project": "H-09", "directory": "h09", "date": "2018.07.24", "thumbnail": "2.jpg", "markdown" : "/md/projects/h09.md", "tags":["3D", "Concept Design"], "description" : "A concept design for a robotic prosthetic arm"},
+    { "id": 17, "visible": false, "project": "Silence of Stones", "directory": "silenceofstones", "date": "2018.08.28", "thumbnail": "1.jpg", "markdown" : "/md/projects/silenceofstones.md", "tags":["3D", "Concept Design"], "description" : "Set of environments set in a dystopian sci-fi universe"},
+    { "id": 18, "visible": true, "project": "Lumo·Graph", "directory": "lumograph", "date": "2019.05.26", "thumbnail": "0.jpg", "markdown" : "/md/projects/lumograph.md", "tags":["Code", "Node.js", "Film", "UI design"], "description" : "Film photo archiving app built for the web"},
+    { "id": 19, "visible": true, "project": "METAMORPHOSE", "directory": "metamorphose", "date": "2019.06.27", "thumbnail": "1.jpg", "markdown" : "/md/projects/metamorphose.md", "tags":["3D", "Branding", "Film"], "description" : "Set of restorations in a dystopian future"},
+    { "id": 20, "visible": true, "project": "URP-PSX", "directory": "urp-psx", "date": "2020.05.15", "thumbnail": "1.PNG", "markdown" : "/md/projects/urp-psx.md", "tags":["3D", "Graphics", "Plugin"], "description" : "Playstation 1 era retro graphics plugin optimized for Unity's Universal Rendering Pipeline with Shadergraph."},
+    { "id": 21, "visible": true, "project": "Massless Clouds", "directory": "masslessclouds", "date": "2020.01.15", "thumbnail": "1.jpg", "markdown" : "/md/projects/masslessclouds.md", "tags":["Interactive", "Graphics"], "description" : ""}
+
+  ],
+  "hako": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "another comment", "postId": 1 }
+  ],
+  "lumograph": [
+    {"id": 1, "collection": "landscape", "film": "fuji-100" ,"frames" :["234","545","212"]}
+  ]
+}

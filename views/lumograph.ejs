@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- head ejs -->
+  <% include lumograph/head.ejs %>
+  <link rel="stylesheet" href="/css/mediaqueries.css">
+
+</head>
+
+<body>
+<div id="content">
+<!-- LAZY LOADER. JS -->
+</div>
+
+<div id="header" data-aos="fade-up">
+  <div id="lumograph">
+    <h1>Lumo·Graph</h1>
+  </div>
+  <% collectionStats.forEach(function(stats) { %>
+    <p><%= stats.totalCollections %> collections</p>
+    <p><%= stats.totalFrames %> exposures</p>
+    <p><a href="/lumograph/master"><i>> master archive</i></a></p>
+  <% }); %>
+  <br>
+  <% collectionList.forEach(function(collection) { %>
+    <div class="collection-nav">
+      <a href="/lumograph/collections/<%= collection.name %>"><p><u><%= collection.name %></u>, <%= collection.frames.length %> exp.</p></a>
+    </div>
+  <% }); %>
+</div>
+<!-- JS -->
+<script type="text/javascript" src="/js/lazyloader.js"></script>
+<!-- AOS FADE SCRIPTS -->
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<!-- <script>AOS.init();</script> -->
+</body>
+</html>

@@ -1,0 +1,25 @@
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.4.0/marked.min.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function()
+  $(".project_md").each(function()
+    var content = $(this).text()
+    console.log(content)
+    var markedContent = marked(content)
+    console.log(markedContent)
+    $(this).html(markedContent)
+  )
+)
+
+$(document).ready(function()
+  $(".collection_md").each(function()
+    var content = $(this).text()
+    console.log(content)
+    var markedContent = marked(content)
+    console.log(markedContent)
+    $(this).html(markedContent)
+  )
+)
+</script>
