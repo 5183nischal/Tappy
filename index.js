@@ -16,7 +16,7 @@ sharp.cache(50);
 //OTHER SCRIPTS
 //sets the view engine to EJS and port to 3000
 app.set('view engine', 'ejs')
-app.set('port', (process.env.PORT || 80))
+app.set('port', (process.env.PORT || 4000))
 
 // Get content from file
 var masterDB = fs.readFileSync("db.json"),
