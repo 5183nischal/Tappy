@@ -22,7 +22,7 @@ SET PATH=%PATH%;C:\Users\Kodri\AppData\Roaming\npm\node_modules\nodemon\bin
 ---
 
 ### Hosting
-- [Zeit](Zeit.co)
+- Heroku
 
 ### Resources
 - Jade template system: http://jade-lang.com/
